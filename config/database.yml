@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: fapp_development
+  pool: 5
+  username: fapp
+  password: haselko
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: fapp_test
+  pool: 5
+  username: fapp
+  password: haselko
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: fapp_production
+  pool: 5
+  username: fapp
+  password: haselko
